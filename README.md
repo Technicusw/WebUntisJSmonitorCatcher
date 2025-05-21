@@ -77,7 +77,7 @@ This is the easiest way to get started and test the functionality.
     };
     // ----------------------------------
     ```
-    *You'll need to find these values from your school's WebUntis monitor page. Often, looking at the network requests (F12 developer tools in browser) when loading the monitor page can reveal `schoolName`, `formatName`, and `departmentIds` within the request payload.*
+    *You'll need to find these values from your school's WebUntis monitor page. Often, looking at the network requests (F12 developer tools in browser) when loading the monitor page can reveal `schoolName`, `formatName`, and `departmentIds` within the request payload. Sometimes the departmentIds are unnecessary.*
 4.  **Save** the `index.mjs` file.
 5.  **Run the script** from your terminal in the project's root directory:
     ```bash
