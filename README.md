@@ -1,4 +1,4 @@
-# WebUntisJSmonitorCatcher
+# WebUntisMonitorCatcherJS
 ## WebUntis Monitor Timetable Fetcher
 
 A flexible Node.js module designed to fetch and display timetable and substitution data directly from WebUntis monitor pages. This tool is versatile: it can be run as an interactive command-line script or easily imported into your own Node.js applications for custom use cases.
