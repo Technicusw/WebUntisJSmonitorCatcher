@@ -69,12 +69,9 @@ This is the easiest way to get started and test the functionality.
 2.  **Locate the `if (import.meta.main)` block** at the bottom of the file.
 3.  **Configure your school's specific details** within the `MY_SCHOOL_CONFIG` object inside this block:
     ```javascript
-    // --- SCHOOL CONFIGURATION HERE ---
-    const MY_SCHOOL_CONFIG = {
-        schoolName: "YOUR_SCHOOL_NAME",        
-        formatName: "YOUR_MONITOR_FORMAT_NAME", 
-        departmentIds: [YOUR_DEPARTMENT_IDS]   
-    };
+    // School Format 
+    const FormatName = ***  <== // hier Format Name eingeben
+    const SchoolName = ***  <== // hier School Name Eingeben
     // ----------------------------------
     ```
     *You'll need to find these values from your school's WebUntis monitor page. Often, looking at the network requests (F12 developer tools in browser) when loading the monitor page can reveal `schoolName`, `formatName`, and `departmentIds` within the request payload. Sometimes the departmentIds are unnecessary.*
